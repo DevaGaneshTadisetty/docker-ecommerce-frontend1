@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "ec2-3-110-147-83.ap-south-1.compute.amazonaws.com";
+const API_URL = "http://ec2-3-88-160-73.compute-1.amazonaws.com/auth";
 
 
 
