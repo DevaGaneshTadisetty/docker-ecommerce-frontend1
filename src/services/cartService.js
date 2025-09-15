@@ -1,8 +1,8 @@
 import axios from "axios";
 
-const API_URL = "http://ec2-54-90-79-42.compute-1.amazonaws.com /api/cart";
+const API_URL = "http://ec2-54-90-79-42.compute-1.amazonaws.com  /api/cart";
 
-const API_BASE = "http://ec2-54-90-79-42.compute-1.amazonaws.com /api/cart";
+const API_BASE = "http://ec2-54-90-79-42.compute-1.amazonaws.com  /api/cart";
 
 export const addToCart = async (userId, productId) => {
   return await axios.post(`${API_BASE}/add`, {
