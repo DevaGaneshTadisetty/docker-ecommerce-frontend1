@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8081/auth";
+const API_URL = "http://ec2-184-73-67-98.compute-1.amazonaws.com:8081/auth";
 
 
 
